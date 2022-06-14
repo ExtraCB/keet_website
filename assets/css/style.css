@@ -1,0 +1,46 @@
+
+
+body {
+  font-family: Poppins, "Noto Sans Thai", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+.btn.btn-flat {
+  font-size: 20px;
+  border-radius: 0;
+  border: 2px solid;
+  height: 50px;
+  background: transparent;
+  -webkit-transition: 0.9s;
+  transition: 0.5s;
+}
+
+.btn-flat.btn-primary {
+  color: black;
+  background: linear-gradient(35deg, black 50%, transparent 50%);
+  background-position: right bottom;
+  background-size: 220% 100%;
+}
+
+.btn-flat.btn-primary:hover {
+  background-position: left bottom;
+  border: 2px solid black;
+  color: #fff;
+}
+
+#header_product{
+    font-size: 90px;
+    font-family: 'Abril Fatface', cursive;
+}
+.card{
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08),0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor:pointer;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
